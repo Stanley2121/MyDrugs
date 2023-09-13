@@ -139,14 +139,27 @@ body{
 }
 
 .contentHome{
-  height: 100vh;
+  height: 90vh;
   width: 98vw;
   display: flex;
   justify-content: center;
 }
 .imgHome{
-  height: 700px;
-  width: 1200px;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+@media(max-width: 560px){
+  .imgHome{
+    width: 400px;
+    height: 400px;
+  }
+}
+@media(max-width: 410px){
+  .imgHome{
+    width: 300px;
+    height: 300px;
+  }
 }
 
 /* footer */
